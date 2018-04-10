@@ -97,4 +97,4 @@ Run `kubectl expose deployment webapp-[YOUR_DOCKERHUB_ACCOUNT] --type "LoadBalan
 
 Run `kubectl get service webapp-[YOUR_DOCKERHUB_ACCOUNT]`
 
-When the `EXTERNAL-IP` become available, access that page : `http://[EXTERNAL-IP]: [PROTNUMBER]/`
+When the `EXTERNAL-IP` become available, access that page : `http://[EXTERNAL-IP]:[PROTNUMBER]/`
