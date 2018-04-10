@@ -91,10 +91,10 @@ Run `kubectl get deployment`
 
 ### Expose you app
 
-Run `kubectl expose deployment webapp-[YOUR_DOCKERHUB_ACCOUNT] --type "LoadBalancer" --target-port=80 --port=[PRONUMBER]`
+Run `kubectl expose deployment webapp-[YOUR_DOCKERHUB_ACCOUNT] --type "LoadBalancer" --target-port=80 --port=[PROTNUMBER]`
 
 ### Check service status
 
 Run `kubectl get service webapp-[YOUR_DOCKERHUB_ACCOUNT]`
 
-When the `EXTERNAL-IP` become available, access that page : `http://[EXTERNAL-IP]: [PRONUMBER]/`
+When the `EXTERNAL-IP` become available, access that page : `http://[EXTERNAL-IP]: [PROTNUMBER]/`
