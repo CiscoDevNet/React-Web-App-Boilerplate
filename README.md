@@ -90,6 +90,7 @@ Run `kubectl run webapp-[YOUR_DOCKERHUB_ACCOUNT] --image [YOUR_DOCKERHUB_ACCOUNT
 Run `kubectl get deployment`
 
 ### Expose you app
+[PROTNUMBER] is a number between 1000 and 10000.
 
 Run `kubectl expose deployment webapp-[YOUR_DOCKERHUB_ACCOUNT] --type "LoadBalancer" --target-port=80 --port=[PROTNUMBER]`
 
